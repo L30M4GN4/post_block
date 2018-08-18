@@ -1,0 +1,4 @@
+rm fi
+./post_set_info $1
+./encrypt $1 "fi" "result$2"
+rm fi
